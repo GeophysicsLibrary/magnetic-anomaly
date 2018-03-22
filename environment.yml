@@ -1,4 +1,4 @@
-name: geofisica1
+name: magnetic-anomaly
 channels:
     - conda-forge
     - defaults
@@ -6,10 +6,10 @@ dependencies:
     - python=2.7
     - numpy
     - scipy
+    - pandas
     - jupyter
-    - mayavi
-    - matplotlib=1.5
-    - fatiando=0.5
+    - ipython
+    - ipywidgets
+    - matplotlib
     - basemap
-    - ipywidgets=5.2.2
-    - seaborn
+    - fatiando=0.5
